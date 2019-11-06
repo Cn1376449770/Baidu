@@ -1,0 +1,73 @@
+/*css样式重置*/
+/*公共样式*/
+body,p,ul,input{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+	}
+p{
+    text-align: center;
+    font-size: 16px;
+    color: red;
+	}
+.pull-left{
+	float: left;
+}
+
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.header_right{
+	width: 350px;
+    border: 1px solid white;
+    float: right;
+    margin-right: 10px;
+    margin-top: 18px;
+    }
+.content_logo_img{
+	margin:0 auto;
+	width: 500px;
+	height: 200px;
+	background:url(../img/baidulogo.jpg) no-repeat 0 0 ;
+}
+.textinput_method_content_middle #input1{
+	margin:0 auto;
+	width:300px;
+	height:30px;
+	margin-left:300px;
+	border: 1px solid #dfdfdf;
+	text-align: left;
+}
+.textinput_method_content_middle button{
+	margin:0 auto;
+	width: 90px;
+	height: 30px;
+	border: 2px solid #dfdfdf;
+	background-color: #5197ff;
+	}
+.content_qrcode_img_middle{
+	margin:0 auto;
+	width:140px;
+	height:140px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	background: url(../img/qrcode.jpg) no-repeat 0 0;
+	}
+.content_footer_text{
+	margin-top:30px;
+	text-align: center;
+}
+.download_footer a,.download_footer span{
+	font-size: 12px;
+	color: #666a78;
+	display: inline-block;
+}
